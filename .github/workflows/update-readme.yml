@@ -15,11 +15,14 @@ jobs:
       - name: Update README
         run: |
           # Define a list of URLs
-          URLS=("https://media4.giphy.com/media/IThjAlJnD9WNO/giphy.gif?cid=ecf05e47"
-                "https://media4.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif"
-                "https://media4.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif"
-                "https://media4.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif"
-                "https://media4.giphy.com/media/13CoXDiaCcCoyk/giphy.gif")
+          URLS=("https://fonts.gstatic.com/s/e/notoemoji/latest/1f422/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f40d/512.gif",
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f40a/512.gif",
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f438/512.gif",
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f996/512.gif",
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f995/512.gif",
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f409/512.gif",
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f98e/512.gif")
 
           # Select a random URL
           RANDOM_URL=${URLS[$RANDOM % ${#URLS[@]}]}
@@ -31,9 +34,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          git clone https://${GH_TOKEN}@github.com/dyluc/scheduler.git
-          cp updated_README.md scheduler/README.md
-          cd scheduler
+          git clone https://${GH_TOKEN}@github.com/dyluc/dyluc.git
+          cp updated_README.md dyluc/README.md
+          cd dyluc
           git config --local user.email "dylanlucas1510@gmail.com"
           git config --local user.name "Commit-sapien"
           git add README.md
