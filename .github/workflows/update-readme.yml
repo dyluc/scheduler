@@ -16,12 +16,12 @@ jobs:
         run: |
           # Define a list of URLs
           URLS=("https://fonts.gstatic.com/s/e/notoemoji/latest/1f422/512.gif"
-                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f40d/512.gif",
-                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f40a/512.gif",
-                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f438/512.gif",
-                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f996/512.gif",
-                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f995/512.gif",
-                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f409/512.gif",
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f40d/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f40a/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f438/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f996/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f995/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f409/512.gif"
                 "https://fonts.gstatic.com/s/e/notoemoji/latest/1f98e/512.gif")
 
           # Select a random URL
