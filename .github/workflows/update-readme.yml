@@ -16,7 +16,7 @@ jobs:
         run: |
           # Here, you can add any commands or scripts to update your README
           # For example, you might use a Python or shell script to modify the README file
-          echo "Last updated: $(date)" > README_DUMP.md
+          echo "Last updated: $(date)" > README.md
 
       - name: Commit Changes
         run: |
