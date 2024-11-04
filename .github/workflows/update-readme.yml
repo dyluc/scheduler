@@ -1,0 +1,27 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # This will run the workflow daily at midnight UTC
+  workflow_dispatch:  # Optional: Allows manual triggering of the workflow
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Update README Content
+        run: |
+          # Here, you can add any commands or scripts to update your README
+          # For example, you might use a Python or shell script to modify the README file
+          echo "Last updated: $(date)" > README_DUMP.md
+
+      - name: Commit Changes
+        run: |
+          git config --local user.email "dylanlucas1510@gmail.com"
+          git config --local user.name "dyluc"
+          git add README.md
+          git commit -m "Update README [skip ci]" || echo "No changes to commit"
+          git push
