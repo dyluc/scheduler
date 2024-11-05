@@ -37,7 +37,6 @@ jobs:
           git clone https://${GH_TOKEN}@github.com/dyluc/dyluc.git
           cp updated_README.md dyluc/README.md
           cd dyluc
-          git config --local user.email "dylanlucas1510@gmail.com"
           git config --local user.name "Commit-sapien"
           git add README.md
           git commit -m "Daily README update [skip ci]" || echo "Nothing to commit"
