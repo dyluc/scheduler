@@ -22,7 +22,27 @@ jobs:
                 "https://fonts.gstatic.com/s/e/notoemoji/latest/1f996/512.gif"
                 "https://fonts.gstatic.com/s/e/notoemoji/latest/1f995/512.gif"
                 "https://fonts.gstatic.com/s/e/notoemoji/latest/1f409/512.gif"
-                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f98e/512.gif")
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f98e/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f400/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f416/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f410/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f998/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f412/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f9a7/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f9a6/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f426/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f426_200d_2b1b/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f985/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f9ad/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f421/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f433/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f419/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f980/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1fabc/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f577_fe0f/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f40c/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f41c/512.gif"
+                "https://fonts.gstatic.com/s/e/notoemoji/latest/1f41d/512.gif")
 
           # Select a random URL
           RANDOM_URL=${URLS[$RANDOM % ${#URLS[@]}]}
