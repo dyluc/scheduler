@@ -2,7 +2,7 @@
 
 ---
 
-### Hi, I'm Dylan. <img align=center src="PLACEHOLDER_SRC" width="32" height="32">
+### Hi, I'm Dylan! <img align=center src="PLACEHOLDER_SRC" width="32" height="32">
 
 ---
 
